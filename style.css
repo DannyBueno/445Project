@@ -1,0 +1,72 @@
+
+/* Include the padding and border in an element's total width and height */
+/*
+* {
+    box-sizing: border-box;
+  }
+*/
+
+
+  /* Remove margins and padding from the list */
+  /*
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  */
+
+  /* Style the list items */
+  /*
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+*/
+
+  /*  contact management   */
+
+body {
+    background-color: whitesmoke;
+}
+.container {
+    background-color: blue;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    font: 35px;
+}
+
+.button1 {
+    border: none;
+    background-color: rgba(51, 116, 238, 0.959);
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke; 
+    border: 2px solid rgb(0, 0, 0);
+    justify-content: center;
+    
+  } 
+
+  .container-two {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-two > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 45px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+  }
+
+  .name-div {
+    margin: 75px;
+  }
