@@ -75,8 +75,103 @@ h2 {
     font-size: 25px;
   }
 
+
   .name-div {
     margin: 75px;
   }
 
+  /* contact  page */
+
+
+label {
+  align-self: flex-start;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+
+.form-input {
+    background: white;
+    border: 1px solid black;  
+    width: 100%;
+    padding: 3px;
+}
+
+
+.new-contact {
+  text-align: center;
+  font-size: 25px;
+  height: 40%;
+  border: 1px solid black;  
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  margin: 0 auto;
+  border: 1px solid black;  
+}
+
+.submit-button {
   
+}
+
+.div-inform {
+margin: 15px;
+text-align: left;
+}
+
+
+
+/*  Edit page   */
+/*
+.edit-page {
+  background-color: blue;
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  font: 40px; 
+} */
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(51, 116, 238, 0.959);
+
+}
+
+
+
+#results {
+  display: flex;
+  flex-flow: column wrap;
+  color: black;
+  font: 35px;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  border: 1px solid black;  
+}
+
+
+/*
+.form-input:focus, 
+.form-button {
+    outline: none;
+    cursor: pointer;
+}
+*/
+
+.edit-page {
+  background-color: blue;
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  font: 35px;
+
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Details Page</title>
+</head>
+<body>
+<h1> Conact mangement</h1>
+<div id="results"></div>
+
+
+<div id='button-wrapper'>
+    <button onclick="editPage();"> Edit</button>
+    <button> Delete  </button>
+</div>
+
+<script>
+
+    const resultList = document.getElementById('results');
+    new URLSearchParams(window.location.search).forEach((value,
+    name) => {
+        resultList.append(`${name}: ${value}`)
+        resultList.append(document.createElement('br'))
+    });
+
+
+//JSON localSotrage
+
+/*
+var info = document.getElementsByTagName('div')[0], userName;
+
+localStorage.setItem('userName', 'Name');
+
+userName = localStorage.getItem('userName');
+header.innerHTML = userName;
+*/
+
+/* EX
+var header = document.getElementsByTagName('h1')[0], siteName;
+
+localStorage.setItem( 'siteName', 'My Site');
+
+siteName = localStorage.getItem('siteName');
+header.innerHTML = siteName  */
+
+</script>
+    
+
+  <script src='app.js'></script>
+
+</body>
+</html>
